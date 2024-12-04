@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background:linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    border: solid 3px red;
+    justify-content: space-between;
+}
+.logobox{
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+}
+.menu{
+    color: #fff;
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px green;
+}
+.busca{
+    color: #fff;
+    display: flex;
+}
